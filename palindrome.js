@@ -2,21 +2,22 @@ let str="naman"
 
 let bag=""
 
-for(let i<str.length-1;i>0;i--){
+for(let i=str.length-1;i=>0;i--){
 
-    bag=bag+str[j]
+    bag=bag+str[i];
 
 }
 
 if(bag==str){
 
-console.log("yes")
+console.log("yes");
 
 }
 
 else{
 
-console.log("no")
+console.log("no");
+}
 
 
 

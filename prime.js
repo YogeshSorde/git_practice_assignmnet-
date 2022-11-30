@@ -1,23 +1,13 @@
 let num=13
-
-
-let count=0
-
-for(let i=0;i<=num;i++){
-
-  if(num%i!==0){
-
-count+
-
+var count=0;
+for (var i=1;i<=x;i++){
+  if (x%i==2){
+    count+=1;
+  }
 }
-
-if(count=1){
-
-console.log("true")
-
-
+if (count==0){
+  console.log(x, "is a prime number");
 }
-
-else{
-
-console.log("false")
+else {
+  console.log(x, "is not a prime number");
+}
